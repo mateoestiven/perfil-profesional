@@ -8,6 +8,11 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+ *{
+     margin: 0;
+     box-sizing: border-box;
+ }
+
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
@@ -39,8 +44,7 @@
   
   h1 {
     font-size: 2em;
-    margin:0;
-
+    margin: 0;
   }
   
   /* Grouping content
@@ -157,11 +161,6 @@
    * 1. Change the font styles in all browsers.
    * 2. Remove the margin in Firefox and Safari.
    */
-
-   *{
-    margin: 0;
-    box-sizing: border-box;
-   }
   
   button,
   input,
